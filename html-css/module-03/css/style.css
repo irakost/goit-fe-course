@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'google fonts',sans-serif;
+}
+.wrapper{
+    width: 1200px;
+    margin: 0 auto 0 ;
+}
+.header{
+    width: 1000px;
+    margin: 50px auto;
+    text-transform: uppercase;
+}
+.menuFlexItem{
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    width: 24%;
+}
+.AllArticlesConteiner{
+    width: 100%;
+    display: inline-block;
+    height: auto;
+}
+.ArticleContiner{
+    width: 400px;
+    margin: auto;
+    display: block;
+}
+
+.ArticleItem{
+    width: 49%;
+    display: inherit;
+}
+.ArticleImage{
+    width: 400px;
+}
+
+.btnCont{
+    width: 100px;
+    height: 40px;
+    border: black;
+    border-width: 1px;
+    border-style: solid;
+    margin: 0 auto 68px;
+
+}
+.btnText{
+    display: block;
+    text-align: center;
+    font-family: Myriad Pro, Arial, Helvetica, sans-serif;
+    color: #626262;
+    margin-top: 10%;
+}
