@@ -1,0 +1,278 @@
+/*.wrapper{
+    display: flex;
+    border: 10px solid rgb(80, 235, 255) ;
+    height: 600px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+   /* margin: 0 auto;
+
+}
+.box{
+    border: 5px solid rebeccapurple;
+    width: 31%;
+    height: 180px;
+    /*margin: 10px;
+    background-image: url(http://img0.liveinternet.ru/images/attach/c/0/119/222/119222214_zolotaja_rybka.jpg);
+
+}
+/*.img{
+    display: block;
+    width: 31%;
+    height: auto;
+}*/
+html{
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+.wrapper {
+    padding: 0 ;
+   /* background-color:rgb(29, 5, 85) ;*/
+    width: 1300px;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+  }
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+   
+}
+.logo {
+    text-transform:unset;
+    font-weight: bold;
+    color:rgba(28, 230, 230, 0.849);
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold
+}
+.menu-flex {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    width: 400px;
+}
+/*li{ 
+    padding: 10px;
+}*/
+
+a {
+    text-decoration: none;
+}
+.menu-link:hover{
+    color: rgb(245, 10, 10);
+}
+.menu-link:hover::after{
+    content: '';
+       /* width: 100px;*/
+        height: 3px;
+        background-color: rgb(245, 10, 10);
+        display: flex;
+        margin: 0 auto;
+
+}
+
+.menu-link{
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    color:rgba(28, 230, 230, 0.849);
+}
+.title-work{
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+}
+.title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 	'Montserrat', sans-serif;
+    font-size: 30px;	
+    font-weight: bold;
+   
+}
+.title:after{
+    content: '';
+    width: 60px;
+    height: 3px;
+    background-color: rgb(245, 10, 10);
+    display: flex;
+    margin: 40px auto;
+}
+.section-body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+   margin-bottom: 70px;
+   align-items: center; 
+}
+.icon{ 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    text-transform: uppercase;
+   /* height: 10px;
+    width: 82px;*/
+}
+.icon-text{
+    font-family: 'Roboto', sans-serif;	
+    font-size: 15px;	
+    line-height: 24px;
+}
+
+.img{
+    margin-right: 19px;
+}
+
+.title-foto{
+   /* width: 940px;*/
+   /* margin: 0 auto;*/
+    text-align: center;
+    color: #999999;	
+    font-family: 	'Roboto', sans-serif;
+    font-size: 15px;	
+    line-height: 24px;
+}
+.foto-flex{ 
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+.overlay{ 
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.overlay li{
+    display: inline-block;
+}
+.icon-facebook{
+    background-image: url('../img/facebook.png');
+}
+.icon-facebook:hover{
+	background-color: #95E1D3;
+}
+.icon-twitter{
+    background-image: url('../img/twitter.png');
+}
+.icon-twitter:hover{
+    background-color: #95E1D3;
+}
+.icon-pinterest{
+    background-image: url('../img/pinterest.png');
+}
+.icon-pinterest:hover{
+    background-color: #95E1D3;
+}
+.icon-instagram{
+    background-image: url('../img/instagram.png');
+}
+.icon-instagram:hover{
+    background-color: #95E1D3;
+}
+.overlay a{
+    display: block;
+    width: 56px;
+    height: 56px;
+    background-color: #FCE38A;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.visually-hidden{
+display: none;
+}
+.social-networks{
+    position: absolute;
+    top:o;
+    left: 0;
+    width: 100%;
+    height: 85%;
+}
+
+.overlay{
+    position: absolute;
+    top: 50%;;
+    left: 50%;
+    transform: translate( -50%,-50%);
+    display: flex;
+}
+
+.foto{
+    position: relative;
+    
+}
+.foto:hover>.social-networks{
+    background-image: -moz-linear-gradient( 90deg, rgb(252,227,138) 0%, rgb(243,129,129) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(252,227,138) 0%, rgb(243,129,129) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(252,227,138) 0%, rgb(243,129,129) 100%);
+    position: absolute;
+    box-shadow: 10px 10px #95E1D3;
+}
+.surname{
+    color: #333333;	
+    font-family: 	'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;	
+    text-align: center;
+}
+.profession{
+    color: #999999;	
+    font-family: 'Roboto', italic;	
+    font-size: 15px;	
+    font-style: italic;	
+    font-weight: 300;	
+    line-height: 24px;	
+    text-align: center;
+}
+
+main{
+    margin-bottom: 100px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+input{
+    width: 230px;
+height: 40px;
+color: #CCCCCC;
+font-family: 'Roboto', italic;
+
+}
+.btn{
+background-color: aquamarine;
+margin-right: auto;
+width: 150px;
+height: 40px;
+border: 0;
+font-family: 'Montserrat', bold;
+color: #FFFFFF;
+}
+
+  
+
+ 
