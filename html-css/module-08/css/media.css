@@ -1,0 +1,52 @@
+@media ( max-width: 748px){
+
+
+.item {
+    margin-bottom: 30px;
+}
+.nav{
+
+    flex-direction: column-reverse;
+}
+
+}
+
+
+
+@media ( min-width: 748px){
+
+
+.nav{
+
+    justify-content: space-between;
+}
+.container{
+    width: 748px;
+}
+.item{
+    width: 320px;
+}
+.card{
+    display: flex;
+   /* flex-wrap: wrap;*/
+    justify-content: space-between;
+}
+.btn{
+    margin-left:  auto;
+    margin-right: auto;
+}
+}
+
+
+@media(min-width:748px) and (max-width:940px){
+.card{
+    flex-wrap: wrap;
+}
+}
+
+
+@media(max-width:940px){
+    .container{
+width: 940px;
+    }
+}
