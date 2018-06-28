@@ -1,0 +1,228 @@
+*{
+        margin: 0;
+        padding: 0;
+    
+        box-sizing: border-box;
+    }
+    
+    .clearfix::after {
+        display: table;
+        content: '';
+        clear: both;
+    }
+    
+    .wrapper {
+        padding: 38px 0 50px;
+       width: 1110px;
+       margin: 0 auto;
+    
+    }
+    
+    .container {
+        width: 1110px;
+        margin: 0 auto;
+    }
+    
+    .header {
+         margin-bottom: 100px;
+        display: block;
+      /*  vertical-align: middle;*/
+
+    }
+
+    .logo {
+        font-family: 'Roboto' sans-serif;
+        text-transform: uppercase;
+        font-weight: lighter;
+        font-style: normal;
+        color:rgba(0, 0, 0, 0.849);
+        font-size: 30px;
+        float: left;
+        display: block;
+    }
+    
+    .logo:first-letter {
+        color:#1ABC9C ;
+        font-weight: bold; 
+    }
+    
+    .menu {
+        float: right;
+    }
+    
+    ul {
+        list-style: none;
+        
+    }
+     a {
+         text-decoration: none;
+     }
+    
+    .menu-item {
+        float: left;
+        font-size: 16px;
+        margin-right: 20px;
+    }
+    .menu-item:last-child {
+        margin-right: 0;
+    }
+    
+    .menu-link:hover {
+        color:#1ABC9C ;
+    }
+    
+    .menu-link {
+        color: #000;
+        display: block;
+        line-height: 58px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+    }
+
+    .section-body{
+        margin-top: 90px;
+    }
+
+
+
+
+.imag{
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 282px;
+    object-fit: cover;
+}
+
+   
+  
+    .card {
+        display: inline-block;
+        vertical-align: top;
+        width: 255px;
+        height: 322px;
+        float: left;
+        margin-right: 30px;
+        margin-bottom: 30px;
+       
+    }
+    
+    .card:nth-last-child(-n+4) {
+        margin-bottom: 0;
+    }
+    
+    .card:nth-child(4n) {
+        margin-right: 0;
+    }
+
+   
+    
+    .name, .price {
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        display: block;
+        height: 40px;
+        background-color: #515151;
+        float: left;
+        width: 200px;
+        color: #ffffff;
+        text-align: center;
+        padding-top: 4%;
+        text-transform: uppercase;
+    }
+    
+    .price {
+       
+        width: 55px;
+        opacity: 0.5;
+      
+    }
+    
+    .card:hover .name {
+        background-color:#1ABC9C ;
+    }
+    .card:hover .price {
+        background-color:#1ABC9C ;
+        opacity: 0.5;
+    }
+    
+    .title{
+        width: 600px;
+        display: block;
+       text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bolder;
+        margin-bottom: 135px;
+        font-size: 48px;
+        color: #555252;
+        margin: auto;
+       
+    
+    }
+
+    
+    .title:after {
+        content: '';
+        width: 160px;
+        height: 8px;
+        background-color: #1ABC9C;
+        display: block;
+        margin: 30px auto;
+    }
+    
+    .products {
+        display: block;
+        margin-bottom: 50px ;
+        margin-top: 90px;
+
+    }
+    
+    article {
+        width: 350px;
+        height: 500px;
+        float: left;
+        margin-right: 30px;
+    }
+    
+    article:last-child {
+        margin-right: 0;
+    }
+
+    h3{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        font-size: 18px;
+        color: #555252;
+    }
+
+    h3::after{
+        display: block;
+        content: '';
+        background-color: #1abc9c;
+        margin: 16px 0 30px;
+        width: 137px;
+        height: 3px;
+        line-height: 20px;
+    }
+    .text{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: normal;
+        color: #515151;
+    }
+    .btn{
+        font-family: Open Sans, sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    width: 160px;
+    height: 53px;
+    background-color: #1abc9c;
+    border: 0;
+    border-radius: 3px;
+    margin-top: 17px;
+    }
+.bot{
+    margin-top: 145px;
+}

@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'google fonts', sans-serif;
+    font-size: 19px;
+  }
+
+.sp1:hover {color: chartreuse;}
+.sp1:hover{background-color: fuchsia;
+}
+li {float: left;
+margin-right: 30px;}
+.sp1{
+    list-style: none;
+}
+
+
+.sp2:nth-child(3n+0){
+    color: #88292F;
+}
+.sp2:nth-last-child(3n+0){
+    color: #5DB7DE;
+}
+.sp2{
+    color: #0D5D56;
+}
+
+
+ .sp3::before{
+     content: \2192;
+ }
+ .sp3{
+    list-style: none;
+ }
+
+
+ .sp4::before,:nth-child(n+1){
+
+     content:\2162;
+ }
+ .sp4{
+    list-style: none;
+ }
