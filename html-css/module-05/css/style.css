@@ -1,0 +1,241 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+body{
+    text-align: center;
+  
+}
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+.header{
+    width: 1110px;
+    margin-top: 40px;
+   margin:  auto;
+}
+.clearfix::after {
+    display: table;
+    content: '';
+    clear: both;
+}
+a{
+    text-decoration: none;
+    color: #515151;
+}
+.logo{
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    font-size: 30px;
+    font-weight: lighter;
+    float: left;
+}
+
+
+
+.logo::first-letter{
+    color: #1abc9c;
+    font-weight: bold;
+}
+ul{
+    list-style-type: none;
+    float: right;
+}
+.menu-item{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    display: inline;
+    padding-right: 34px;
+}
+
+.menu-item:last-child{
+    padding-right: 0;
+}
+.menu-item:hover {
+    color: #1abc9c;
+}
+
+
+
+
+.wrapper-fon{
+    background-image: url("../img/slider.jpg");
+    background-size:  contain;
+    background-repeat: no-repeat;
+    height: 607px;
+   background-position: center;
+    width: 100%;
+   /* margin-top: -1px;*/
+   /* padding-top: 100px;*/
+    background-color: rgb(0, 0, 7);
+
+    opacity: 0.95;
+   /* opacity: 0.52;
+    	background-color: #000002;*/
+
+}
+h2{
+     font-family: "Roboto", sans-serif;
+        font-size: 47.5px;
+        color: white;
+        padding-top: 222px;
+        
+       
+}
+span{ 
+    color: white;
+   
+}
+
+h2::before{
+    content: "\2039";
+    display: inline-block;
+    width: 105px;
+    height: 105px;
+    background-color: #1abc9c;
+    vertical-align: top;
+    margin-right: 80px;
+    font-size: 100px;
+    line-height: 84px;
+    color: #ffffff;
+    opacity: 0.65;
+}
+  h2::after{
+    content: "\203a";
+    display: inline-block;
+    width: 105px;
+    height: 105px;
+    background-color: #1abc9c;
+    vertical-align: top;
+    margin-left: 80px;
+    font-size: 100px;
+    line-height: 84px; 
+    color: #ffffff;
+    opacity: 0.65;
+  }
+
+
+
+
+.wrapper-collection{
+
+    background-color: #e9f0fd; 
+}
+h3{
+    
+        width: 600px;
+        display: block;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bolder;
+       
+        font-size: 48px;
+        color: #555252;
+        margin: auto;
+        position: relative;
+        padding-bottom: 40px; 
+        margin-bottom: 20px;
+}
+.container-gallery{
+    position: relative;
+}
+.gallery{
+    margin: 0 auto;
+    width: 1140px;
+    margin-top: 80px;
+}
+h3::after{
+
+   /* display: block;
+    content: '';
+    background-color: #1abc9c;
+    margin: 34px auto 92px;
+    width: 160px;
+    height: 10px;*/
+    content: '';
+  position: absolute;
+  width: 160px;
+  height: 8px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background:#1abc9c;
+  
+}
+.card{
+   /* position: relative;
+    font-size: 18px;
+    font-family: Roboto black;
+    display: block;
+    width: 255px;
+    height: 323px;
+    float: left;
+    margin: 4px 30px 34px 0;*/
+    display: inline-block;
+  vertical-align: top;
+  width: 250px;
+ 
+  margin: 10px 15px;
+  cursor: pointer;
+}
+img {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 323px;
+    object-fit: cover;
+    position: relative;
+  }
+  p {
+   
+    margin: 0;
+    display: inline-block;
+  }
+  /*.price {
+    float: right;
+    display: inline-block;
+   /* padding: 10px;
+    background: green;
+  }
+ /* .card:hover .price {
+    background: red;
+  }*/
+.menu-info{
+    position: absolute;
+}
+/*.card:nth-child(4n) {
+    margin-right: 0;
+}*/
+.name, .price {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    height: 40px;
+    background-color: #515151;
+    float: left;
+    width: 200px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 4%;
+    text-transform: uppercase;
+}
+
+.price {
+   
+    width: 50px;
+    opacity: 0.5;
+  
+}
+.card:hover .name {
+    background-color:#1ABC9C ;
+}
+.card:hover .price {
+    background-color:#1ABC9C ;
+    opacity: 0.5;
+}
+
