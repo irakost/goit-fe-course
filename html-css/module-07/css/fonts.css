@@ -6,3 +6,21 @@
     font-weight: 400;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/montserrat-v12-latin-regular.woff2)format('woff2');
+}
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: url(../fonts/montserrat-v12-latin-700.woff2)format('woff2');
+}
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/roboto-slab-v7-latin-regular.woff)format('woff');
+}
