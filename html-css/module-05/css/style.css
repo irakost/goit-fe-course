@@ -63,7 +63,7 @@ img{
 }
 .slider{
     position: relative;
-    width: 1350px;
+    width: 1600px;
     height: 600px;
     margin: auto;
   
@@ -80,7 +80,7 @@ img{
     transform: translateY(-50%);
     z-index: 1;
     vertical-align: top;
-   
+   cursor: pointer;
     font-size: 80px;
     line-height: 84px;
     color: #ffffff;
@@ -147,6 +147,7 @@ transform: translate(-50%,-50%);
 
 
 .wrapper-collection{
+    width: 1600px;
         background-color: #e9f0fd; 
         padding-top: 100px;
         padding-bottom: 100px;
@@ -229,7 +230,7 @@ h3::after{
     color: #ffffff;
     text-align: center;
    /* padding-top: 15px;*/
-  
+  line-height: 40px;
 }
 
 .price {
@@ -259,13 +260,16 @@ h3::after{
     position: absolute;
   bottom: 70px;
   left: 8px;
-
+ /* width: 165px;
+  height: 107px;
+  display: inline;
+  float: left;*/
 }
 .btn-small{
     width: 50px;
     height: 50px;
     font-size: 40px;
-    
+    cursor: pointer;
     border-style: solid;
     border-width: 1px;
     border-color: rgb(255, 255, 255);
@@ -279,7 +283,8 @@ h3::after{
     margin-top: 3px;
     border-style: solid;
     border-width: 1px;
-    border-color: rgb(255, 255, 255)
+    border-color: rgb(255, 255, 255);
+    cursor: pointer;
 }
 .btn-big-add{
     display: inline;
@@ -297,14 +302,14 @@ h3::after{
 
 
 .wrapper-footer{
- 
-   text-align: center;
-    width: 100%;
+    width: 1600px;
+    text-align: center;
     height: 90px;
     background-color: #323232;
     display: inline-block;
 }
 .footer-all{
+    font-family:'OpenSans' sans-serif; 
     color: #ffffff;
     padding-top: 30px;
     text-transform: capitalize;
