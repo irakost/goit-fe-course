@@ -3,64 +3,100 @@
     padding: 0;
     box-sizing: border-box;
 }
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+.nav{
+    display: flex;
+  
+}
+.urlaubsgluck{
+    text-decoration: none;
+    height: 20px;	
+    width: 178px;	
+    color: #FFFFFF;	
+    font-family: 'Montserrat';	
+    font-size: 20px;	
+    font-weight: bold;	
+   text-transform: uppercase;
+    text-align: center;
+    line-height: 36px;
+}
+.container{
+    width: 320px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
 .wrapper-fon{
+    min-width: 20rem;
+  
     background-image: url(../img/Vector\ Smart\ Object.jpg);
-   /* background-color: rgba(0, 0, 0, 0.5);*/
-   box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        padding: 3rem 0;
-        height: 540px;
-        margin-bottom: 70px;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3rem 0;
+    margin-bottom: 70px;
+}
+.hedinput{
+    display: inline-block;
+    text-decoration: none;
+    height: 36px;	
+    width: 90px;
+    background: rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+    font-family: 'Montserrat';	
+    font-size: 14px;	
+    font-weight: bold;	
+    line-height: 36px;	
+    text-align: center;
+    cursor: pointer;
     }
-    .nav{
-        display: flex;
-        margin-bottom: 160px;
+
+    .hedinput:hover{
+        border: 2px solid #FFFFFF;	
+        border-radius: 50px;
     }
-    .atitle{
+    .hedbtn{
+        display: inline-block;
         text-decoration: none;
-        height: 20px;	
-        width: 178px;	
-        color: #FFFFFF;	
+        height: 36px;	
+        width: 90px;	
+        background: rgba(0, 0, 0, 0);
+        color: #FFFFFF;
         font-family: 'Montserrat';	
-        font-size: 20px;	
+        font-size: 14px;	
         font-weight: bold;	
-       text-transform: uppercase;
-        line-height: 0;	
+        line-height: 36px;
         text-align: center;
+        cursor: pointer;
     }
 
-
-  /*  #Wrapper{
-        background:url(../img/bg/diagonalnoise.png); 
-        width:300px; 
-        height:300px;
-    }
-    
-    #Content{
-        background-color:rgba(248,247,216,0.7); 
-        width:100%; 
-        height:100%;
-    }*/
-
-
-
-  /*  .wrapper-fon:after{
-        content: '';
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    background: rgba(0, 0, 0, 0.2); 
-    }*/
-
+.hedbtn:hover{
+    border: 2px solid #FFFFFF;	
+    border-radius: 50px;
+}
+.share{
+    color: #FFFFFF;	
+    font-family: 'Montserrat';	
+    font-size: 30px;	
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
 .find{
     height: 24px;	
     width: 398px;	
     color: #FFFFFF;	
-    font-family: Roboto;	
+    font-family: 'Roboto';	
     font-size: 24px;	
     font-weight: 300;	
     text-align: center;
@@ -69,9 +105,11 @@
 }
 
 .hol{
+    display: block;
     height: 40px;	
     width: 225px;	
     background-color: #FF4E50;
+    border: 0;
     border-radius: 50px;
     text-align: center;
     font-size: 14px;	
@@ -80,51 +118,10 @@
     font-family: 'Montserrat';
     margin: auto;
     line-height: 40px;
+    cursor: pointer;
 }
-
-
-   .title{
+ .title{
         text-align: center;
-    }
-   
-    .hedinput{
-        border: 0;
-        height: 36px;	
-        width: 90px;
-        background: rgba(0, 0, 0, 0);
-        color: #FFFFFF;
-        font-family: 'Montserrat';	
-        font-size: 14px;	
-        font-weight: bold;	
-        line-height: 0;	
-        text-align: center;
-        }
-    .hedbtn{
-        height: 36px;	
-        width: 90px;	
-        border: 2px solid #FFFFFF;	
-        border-radius: 50px;
-        background: rgba(0, 0, 0, 0);
-        color: #FFFFFF;
-        font-family: 'Montserrat';	
-        font-size: 14px;	
-        font-weight: bold;	
-        line-height: 0;	
-        text-align: center;
-    }
-    .container {
-            margin:0 auto;
-            padding: 0 1rem;
-            width: 200rem;
-
-    }
-    .share{
-        color: #FFFFFF;	
-        font-family: Montserrat;	
-        font-size: 30px;	
-        font-weight: bold;
-        text-transform: uppercase;
-        margin-bottom: 40px;
     }
     .name{
         color: #333333;
@@ -133,40 +130,66 @@
             font-weight: bold;		
             margin-bottom: 6.25rem;
     }
-    .card{
-        list-style: none;
-        
+    .item{
+        padding: 0 15px;
+        text-align: center;
+        margin-bottom: 30px;
+        width: 290px;
     }
-.item{
-    padding: 0 15px;
-    text-align: center;
-    margin-bottom: 30px;
-}
+    .card-icon{
+        position: relative;
+        width: 122px;
+        height: 122px;
+       margin: auto;
+        margin-bottom: 22px;
+    }
+    .photo-icon{
+        display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 50%;
+     }
+    .icon{
+            display: block;
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            bottom: 0;
+            right: 0;
+            background-color: rgb(240, 10, 10);
+            border-radius: 50%;
+            padding: 10px;
+            border: 5px solid white;
+          }
+          .photo{
+            margin-bottom: 10px;
+        }
+        .surname{
+            font-family: 'Montserrat' sans-serif;
+            font-size: 14px;
+            font-weight: bold;
+            color: #333333;
+            margin-bottom: 10px;
+        }
+        .about-me{
+            color: #666666;	
+            font-family: 'Roboto' sans-serif;
+            font-size: 14px;
+            font-weight: 300;
+        }
+        .btn{
+            display: block;
+            height: 40px;	
+            width: 280px;	
+            border: 2px solid #FF4E50;	
+            background-color: #FFFFFF;
+            border-radius: 50px;
+            cursor: pointer;
+        }
 
-.surname{
-    font-family: 'Montserrat' sans-serif;
-    font-size: 14px;
-    font-weight: bold;
-    color: #333333;
-    line-height: 0;
-    margin-bottom: 10px;
-}
-.about-me{
-    color: #666666;	
-    font-family: 'Roboto' sans-serif;
-    font-size: 14px;
-    font-weight: 300;
-}
-.img{
-    margin-bottom: 10px;
-}
-.btn{
-    display: block;
-    height: 40px;	
-    width: 280px;	
-    border: 2px solid #FF4E50;	
-    background-color: #FFFFFF;
-    border-radius: 50px;
-    margin-bottom: 57px;
-}
+    
 
+    
+   
+    

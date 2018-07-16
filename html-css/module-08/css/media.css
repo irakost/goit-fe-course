@@ -1,52 +1,73 @@
-@media ( max-width: 748px){
+@media ( max-width: 768px){
 
 
 .item {
     margin-bottom: 30px;
 }
-.nav{
 
+.nav{
     flex-direction: column-reverse;
+    margin-bottom: 160px;
+   
 }
-
+.find{
+ width: 290px;
 }
-
-
-
-@media ( min-width: 748px){
-
-
-.nav{
-
-    justify-content: space-between;
+.urlaubsgluck{
+    padding-left: 50px;
 }
-.container{
-    width: 748px;
-}
-.item{
-    width: 320px;
-}
-.card{
-    display: flex;
-   /* flex-wrap: wrap;*/
-    justify-content: space-between;
+.menu-flex{
+    padding-left: 45px;
 }
 .btn{
-    margin-left:  auto;
-    margin-right: auto;
-}
+    margin-bottom: 60px;
 }
 
-
-@media(min-width:748px) and (max-width:940px){
-.card{
-    flex-wrap: wrap;
-}
 }
 
+@media(min-width: 768px){
+    .nav{
+        justify-content: space-between;
+      
+    }
+    .card{
+        display: flex;
+       
+        justify-content: space-between;
+    }
+    .btn{ 
+        margin: auto;
 
-@media(max-width:940px){
-    .container{
-width: 940px;
     }
 }
+
+@media (min-width: 768px) and (max-width: 960px){
+    .container{
+        min-width: 768px;
+        max-width: 960px;
+    }
+    
+    .menu-flex{
+        display: flex;
+        justify-content: space-between;
+    }
+    .card{
+      
+        flex-wrap: wrap;
+       
+    }
+    .btn{
+        margin-bottom: 40px;
+    }
+  
+}
+@media(min-width: 961px){
+.container{
+    min-width: 961px;
+}
+.btn{
+    margin-bottom:75px;
+}
+}
+
+  
